@@ -35,7 +35,7 @@ export const CreateServerModal = () => {
 
     const { isOpen, onClose, type } = useModal();
 
-    const isModalOpen = isOpen && type === "createServer"
+    const isModalOpen = isOpen && type === "createServer";
     const router = useRouter();
     
     const form = useForm({

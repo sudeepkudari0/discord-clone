@@ -1,10 +1,10 @@
-import { NavigationBar } from "@/components/navigation/navigationBar";
+import { NavigationSidebar } from "@/components/navigation/navigationBar";
 
 const MainLayout = async ({ children, }: { children: React.ReactNode; }) => {
     return (
         <div className="h-full">
             <div className="hidden md:flex h-full w-[72px] z-30 flex-col fixed inset-y-0">
-                <NavigationBar />
+                <NavigationSidebar />
             </div>
             <main className="md:pl-[72px] h-full">
                 {children}
